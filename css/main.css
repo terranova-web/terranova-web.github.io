@@ -194,11 +194,13 @@ font-family: 'Rokkitt', serif;
 }
 .aboutus{
 	padding-top:1em;
+width:80%;
+margin:auto;
 }
 .aboutus p{
 	
 	font-size: 1.5em;
-	padding-left:4em;
-	padding-right:4em;
+
+
 	text-align:justify;	
 }
