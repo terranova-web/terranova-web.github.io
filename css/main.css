@@ -88,11 +88,13 @@ a:visited { color: #a0a; }
 /*
 /*****************************************************************************/
 
-
+.header{
+width:95%;	
+}
 .header a {
   font-weight: bold;
   text-decoration: none;
-width:100%;
+
 }
 
 .title {
