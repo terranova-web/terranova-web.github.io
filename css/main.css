@@ -207,3 +207,43 @@ margin:auto;
 
 	text-align:justify;	
 }
+
+
+.cutFlowers{
+	padding-top:1em;
+width:80%;
+margin:auto;
+
+}
+.cutFlowers p{	
+	font-size: 1.5em;
+	text-align:justify;	
+}
+.cutFlowers p:last-child{	
+padding-bottom:2em;
+}
+.cutFlowers img{
+	width:50%;
+margin-left:1em;
+border-radius:10px;
+float:right;
+}
+
+
+.transparent100 {
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    /* This works in IE 8 & 9 too */
+    /* ... but also 5, 6, 7 */
+    filter: alpha(opacity=100);
+    /* Modern!
+    /* Firefox 0.9+, Safari 2?, Chrome any?
+    /* Opera 9+, IE 9+ */
+    opacity: 1;
+    /* Older than Firefox 0.9 */
+    -moz-opacity:1;
+    /* Safari 1.x (pre WebKit!) */
+    -khtml-opacity: 1;
+}
+.currentPage {
+	color:#400;
+}
