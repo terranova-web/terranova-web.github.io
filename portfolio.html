@@ -1,0 +1,28 @@
+---
+layout: home
+title: Cut flowers
+---
+<div class="header">
+            	<div><h1 class="title"><a href="/">{{ site.name }}</a></h1>
+		</div>
+		<div>
+			<a class="extra" href="/">News</a>
+			<a class="extra" href="/aboutus.html">About us</a>
+		        <a class="extra" href="/cutflowers.html">Cut flowers</a>
+			<a class="extra" href="/design.html">Planting design</a>
+			<a class="extra" href="/portfolio.html" style="color:#400;">Portfolio</a>	
+			<a class="extra" href="/contact.html">Contact</a>	
+		</div>
+          </div>
+{% for post in site.categories.artwork %}
+<div class="col-6 col-sm-6 col-lg-4">
+<img src={{post.imageSource}} />
+<h3>{{ post.title }}</h3>
+<h5>{{ post.date | date_to_long_string }}
+</h5>
+<p>
+{{ post.summary }}
+<a href="{{ post.url }}">Read More</a>
+</p>
+</div>
+{% endfor %}
