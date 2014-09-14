@@ -219,6 +219,9 @@ margin:auto;
 	font-size: 1.5em;
 	text-align:justify;	
 }
+.cutFlowers input{
+	text-align:left;
+}
 .cutFlowers p:last-child{	
 padding-bottom:2em;
 }
@@ -246,4 +249,16 @@ float:right;
 }
 .currentPage {
 	color:#400;
+}
+
+.doHide{
+	display: none;
+}
+
+
+.interactive{
+font-size:2em;
+text-align:left;
+
+	
 }
