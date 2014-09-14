@@ -259,6 +259,16 @@ float:right;
 .interactive{
 font-size:2em;
 text-align:left;
+cursor:pointer;	
+}
+
+#firstStep{
+width:30%;
+background:#252;
+color:#FFF;
+padding:10px;
+border-radius:10px;	
+
 
 	
 }

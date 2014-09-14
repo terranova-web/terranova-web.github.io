@@ -17,6 +17,13 @@ title: Cut flowers
 <script>
 function toggleDisplay(_elm){
 	$("#" + _elm ).toggle("explode", 500);	
+console.log($(this));
+if($(this).hasClass("fa-long-arrow-right")){
+	$(this).children("i:first").removeClass("fa-long-arrow-right").addClass("fa-long-arrow-left");
+}
+else{
+	$(this).children("i:first").removeClass("fa-long-arrow-left").addClass("fa-long-arrow-right")
+}
 }
 </script>
 <div class="cutFlowers transparent100">
