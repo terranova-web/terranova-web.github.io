@@ -1,0 +1,25 @@
+---
+layout: home
+title: About us
+---
+<div class="header">
+            	<div><h1 class="title"><a href="/">{{ site.name }}</a></h1>
+		</div>
+		<div>
+			<a class="extra" href="/">News</a>
+			<a class="extra" href="/aboutus.html"  style="color:#400;">About us</a>
+		        <a class="extra" href="/cutflowers.html">Cut flowers</a>
+			<a class="extra" href="/design.html">Planting design</a>
+			<a class="extra" href="/portfolio.html">Portfolio</a>	
+			<a class="extra" href="/contact.html">Contact</a>	
+		</div>
+          </div>
+
+<div class="aboutus">
+
+<p>We both come from a horticultural background- Orna is a head gardener in the heritage/historical sector while Jeremie works as a self-employed gardener and in local well known Plant Nursery- Binny Plants.
+</p><p>  We imagined « Terra Nova » as a platform from where we could develop our interests in growing plants and planting design, in both a creative and sustainable way.  We obtained in August 2014 the authorization to use a 20x30 metres field situated in Duddingston Village (Edinburgh).</p>
+<p> We are using this place as a laboratory to experiment growing organic methods, as well as new plant's varieties for our cut flower business.  Open to the public, it is also a very nice place to have a walk and enjoy the wonderful scenery offered by the Duddingston loch and wildlife !
+In parallel, we started to develop planting design which would include advice about plants appropriate to their situation, soil etc, alongside guidance as to how and when to plant. We also intend to develop and specialise further in this area, looking more at our native forra and their ornemental potential.   We hope you enjoy our whole project !   </p> <p> Orna & Jérémie</p>
+</div>
+
