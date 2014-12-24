@@ -45,7 +45,7 @@
 		<div class="image-row">
 			<div class="image-set">
 			{% for image in page.images %}
-				<a  class="light-image-link" href="{{ page.imgfolder }}/{{ image.name }}" data-lightbox="page.title" title="{{ image.text }}">
+				<a  class="light-image-link" href="{{ page.imgfolder }}/web/{{ image.name }}" data-lightbox="page.title" title="{{ image.text }}">
 				    <img class="light-image" src="{{ page.imgfolder }}/thumb/{{ image.name }}" title="{{ image.text }}">
 				</a>&nbsp;
 			{% endfor %}
