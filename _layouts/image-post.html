@@ -7,42 +7,58 @@
         <meta name="viewport" content="width=device-width">
 	<link href='http://fonts.googleapis.com/css?family=Rokkitt' rel='stylesheet' type='text/css'>
         <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
-	<link rel="stylesheet" href="/css/lightbox.css" rel='stylesheet'>
 	<script type="text/javascript" src="/js/jquery-1.11.js"></script>
-	<script type="text/javascript" src="/js/lightbox-2.6.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="/js/jquery-ui-1.11.1.custom/jquery-ui.min.css"/>
         <link rel="stylesheet" type="text/css" href="/js/jquery-ui-1.11.1.custom/jquery-ui.theme.min.css"/>
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 	        <link href="/css/bootstrap.min.css" rel="stylesheet">
 	        <link href="/css/bootstrap-theme.min.css" rel="stylesheet">
         <script src="/js/jquery-ui-1.11.1.custom/jquery-ui.min.js"></script>
-        
+
         <!-- Custom CSS -->
+
+	<!--link rel="stylesheet" href="/css/screen.css" rel='stylesheet'-->
+	<link rel="stylesheet" href="/css/lightbox.css" rel='stylesheet'>
         <link rel="stylesheet" href="/css/main.css" rel='stylesheet'>
-
-
     </head>
 <body>
     <div class="site transparent80">
         <div class="header">
+	    <div>
+		<h1 class="title">
+		<a href="/">Terranova</a>
+		</h1>
+	    </div>
             <div>
                 <a class="extra" href="/">Home</a>
                 <a class="extra" href="/">News</a>
                 <a class="extra" href="/">About us</a>
                 <a class="extra" href="/">Cut flowers</a>
                 <a class="extra" href="/">Planting design</a>
-                <a class="extra" href="/">Portfolio</a>	
+                <a class="extra" href="/" style="color:#400;">Portfolio</a>	
                 <a class="extra" href="/">Contact</a>	
             </div>
+	<h2 class="h2">{{ page.title }}</h2>
         </div>
-	{% include gal.html %}
-        <h2>{{ page.title }}</h2>
-        <h2>{{ page.imgfolder }}
-    <p class="meta">{{ page.date | date_to_string }}</p>
-	<div class="post">
-		{{ content }}
+
+	<div class="aboutus">
+
+		<div class="image-row">
+			<div class="image-set">
+			{% for image in page.images %}
+				<a  class="light-image-link" href="{{ page.imgfolder }}/{{ image.name }}" data-lightbox="page.title" title="{{ image.text }}">
+				    <img class="light-image" src="{{ page.imgfolder }}/thumb/{{ image.name }}" title="{{ image.text }}">
+				</a>&nbsp;
+			{% endfor %}
+			</div>
+		</div>	
+		<div class="addPadding">
+	
+			{{ content }}
+		</div>
 	</div>
     </div>
+<script src="/js/jquery-1.11.0.min.js"></script>
+<script src="/js/lightbox.js"></script>
 </body>
 </html>

@@ -289,3 +289,18 @@ padding:10px;
 border-radius:10px;
 	
 }
+.light-image-link{
+	padding:0;
+}
+.light-image-link img:last-child{	
+padding-bottom:1em;
+}
+.light-image-link img{
+	padding:5px;
+	border-radius:15px;
+}
+.addPadding *{
+	padding: 1em 0em 2em 0em;
+}
+
+
