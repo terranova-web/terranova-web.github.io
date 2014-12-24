@@ -1,14 +1,19 @@
 ---
-title: Ruinwert or The Architect of Ruins
+title: Calton Hill - Wall Planting
 layout: default
 categories: artwork
-summary: Watercolour and Etching, Edition of 6 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum leo non felis porttitor vulputate. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum leo non felis
+summary: To see the gallery for this garden please click on 
 imageSource: /res/projects/caltonHill/caltonHill-sm-icon.jpg
 ---
 
-#Ruinwert or The Architect of Ruins
+# Calton Hill - Wall Planting
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum leo non felis porttitor vulputate. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum leo non felis porttitor vulputate.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum leo non felis porttitor vulputate. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum leo non felis porttitor vulputate.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum leo non felis porttitor vulputate. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum leo non felis porttitor vulputate. 
 
-![Ruinwert or The Architect of Ruins](/assets/architect.jpg)
+![Ruinwert or The Architect of Ruins](/res/projects/FrancesGarden/DSCN1267.JPG)
+![Ruinwert or The Architect of Ruins](/res/projects/FrancesGarden/DSCN1268.JPG)
+![Ruinwert or The Architect of Ruins](/res/projects/FrancesGarden/DSCN1270.JPG)
+![Ruinwert or The Architect of Ruins](/res/projects/FrancesGarden/DSCN1271.JPG)
+![Ruinwert or The Architect of Ruins](/res/projects/FrancesGarden/DSCN1271.JPG)
+![Ruinwert or The Architect of Ruins](/res/projects/FrancesGarden/DSCN1273.JPG)
+
 
